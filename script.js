@@ -296,7 +296,7 @@ function showRsvpSuccess() {
 
 // 📱 Change this to the target WhatsApp number (international format, no + or spaces)
 // Example: India +91 98765 43210  →  919876543210
-const WHATSAPP_NUMBER = ''; // e.g. '919XXXXXXXXX' — if left empty, WhatsApp lets the guest pick a contact
+const WHATSAPP_NUMBER = '919037718049'; // Shahul & Nihila
 
 const wishForm     = document.getElementById('wishForm');
 const wishSuccess  = document.getElementById('wishSuccess');
