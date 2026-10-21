@@ -296,7 +296,7 @@ function showRsvpSuccess() {
 
 // 📱 Change this to the target WhatsApp number (international format, no + or spaces)
 // Example: India +91 98765 43210  →  919876543210
-const WHATSAPP_NUMBER = '919037718049'; // Shahul & Nihila
+const WHATSAPP_NUMBER = '919037718049'; // Shahul & Nihla
 
 const wishForm     = document.getElementById('wishForm');
 const wishSuccess  = document.getElementById('wishSuccess');
@@ -327,7 +327,7 @@ if (wishForm) {
     if (!valid) { nameEl.focus(); return; }
 
     // Build WhatsApp deep-link with pre-filled message
-    const text = `*Nikah Wish for Shahul & Nihila*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
+    const text = `*Nikah Wish for Shahul & Nihla*\n\n*From:* ${name}\n\n*Message:*\n${msg}`;
     const url  = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
     window.location.href = url;
